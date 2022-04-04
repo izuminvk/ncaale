@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-**ncaale/ncaale** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**ncaale/ncaale** is a ✨ _special_ ✨ repository because its `index.html` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
