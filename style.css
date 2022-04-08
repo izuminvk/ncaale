@@ -1,0 +1,121 @@
+
+@font-face  {
+				font-family: 'neue-plak-regular';
+				src: url('Front/neue-plak-regular.ttf');
+}
+
+*{
+				user-select: none;
+				margin: 0; padding: 0;
+				box-sizing: border-box;
+				font-family: 'neue-plak-regular';
+}
+
+a{
+				text-decoration: none;
+}
+
+img{
+				width: 100%;
+				object-fit: cover;
+}
+
+
+main{
+				display: flex;
+				flex-direction: column;
+				width: 100vw;
+				height: 100vh;
+}
+
+.home-txt{
+				width: 100vw;
+				height: 60vh;
+				font-size: 3em;
+				overflow: hidden;
+}
+
+.home-txt p{
+				margin: 20px;
+}
+
+
+.logo{
+				width: 100vw;
+				height: 40vh;
+				display: flex;
+				justify-content: center;
+				align-items: flex-end;
+				font-size: 8em;
+				text-transform: uppercase;
+				overflow: hidden;
+}
+
+@media only screen and (max-width: 700px){
+				.logo{
+								font-size: 4em;
+				}
+}
+
+/*   bbbbbb         */
+
+.showcase{
+				width: 100vw;
+				height: 100vh;
+}
+
+
+.showcase .sh1{
+				width: 100vw;
+				height: 30vh;
+				display: flex;
+				align-items: center;
+				font-size: 3em;
+}
+
+.sh1 span{
+				margin: 20px;
+}
+
+.showcase .sh2{
+				width: 100vw;
+				height: 40vh;
+				display: flex;
+}
+
+
+
+.sh2 .sh2-1{
+				width: 20vw;
+}
+
+.sh2 .sh2-2{
+				width: 80vw;
+				
+				overflow: hidden;
+				object-fit: cover;
+				background: url('img/2.jpg');
+				background-position: center;
+				background-size: cover;
+}
+
+.showcase .sh3{
+				width: 100vw;
+				height: 30vh;
+				display: flex;
+}
+
+
+.sh3 .sh3-1{
+				width: 40vw;
+				height: 30vh;
+}
+
+.sh3-2, .sh3-3{
+				width: 30vw;
+				height: 30vh;
+				display: flex;
+				flex-direction: column;
+				justify-content:center;
+				align-items: center;
+}
